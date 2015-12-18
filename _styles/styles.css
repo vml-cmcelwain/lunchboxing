@@ -1,0 +1,1518 @@
+@font-face {
+    font-family: 'lunchbox';
+    src: url('lunchbox-regular-webfont.eot');
+    src: url('lunchbox-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lunchbox-regular-webfont.woff2') format('woff2'),
+         url('lunchbox-regular-webfont.woff') format('woff'),
+         url('lunchbox-regular-webfont.ttf') format('truetype'),
+         url('lunchbox-regular-webfont.svg#lunchbox_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'junction';
+    src: url('junction-webfont.eot');
+    src: url('junction-webfont.eot?#iefix') format('embedded-opentype'),
+         url('junction-webfont.woff2') format('woff2'),
+         url('junction-webfont.woff') format('woff'),
+         url('junction-webfont.ttf') format('truetype'),
+         url('junction-webfont.svg#junction_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    font-family: junction;
+    font-weight: normal;
+    font-size: 1em;
+    background-color: black;
+}
+.bb-container{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 40px;
+    min-width: 340px;
+}
+h1,h2,h3,h4,h5,h6{
+    
+}
+h1,h2,h3{
+    
+}
+h4,h5,h6{
+    
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    
+}
+p{
+    margin: 0;
+    padding: 0;
+    margin-bottom:10px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+/*Site Colors*/
+.red{
+    color:#c10000;
+}
+.green{
+    color: #008a8f;
+}
+.white{
+   color:#fff; 
+}
+.black{
+    color:#000;
+}
+.yellow{
+    color: #fff700;
+}
+.gray{
+    color: #8e8c8c;
+}
+.background-red{
+    background-color:#c10000;
+}
+.background-green{
+    background-color: #008a8f;
+}
+.background-white{
+   background-color:#fff; 
+}
+.background-black{
+    background-color:#000;
+}
+.background-yellow{
+    background-color: #fff700;
+}
+.background-gray{
+    background-color: #8e8c8c;
+}
+/*End Site Colors*/
+.row{
+    width: 100%;
+    display: block;
+}
+.col{
+    float: left;
+    width: 100%;
+}
+.col-2{
+    float: left;
+    width: 50%;
+}
+.col-3{
+    float: left;
+    width: 33%;
+}
+.col-4{
+    float: left;
+    width: 25%;
+}
+.col-onethird{
+    float: left;
+    width: 33%;
+    min-width: 340px;
+}
+.col-twothirds{
+    float: left;
+    width: 67%;
+    min-width: 340px;
+}
+.clear{
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.mini{
+    font-size: .75em;
+}
+.generate{
+    
+}
+.generated{
+    
+}
+.bb-wrapper-start{
+    
+}
+.bb-wrapper-start-left{
+    
+}
+.bb-wrapper-start-right{
+    
+}
+.bb-wrapper-started{
+    overflow: auto;
+}
+.bb-wrapper-left{
+    
+}
+.bb-wrapper-left-generate-form{
+    
+}
+.bb-wrapper-left-logo{
+    
+}
+.bb-wrapper-left-logo img{
+    width: 100%;
+    height: auto;
+}
+.bb-wrapper-left-form{
+    
+}
+.bb-form{
+    padding-top: 30px;
+    position: relative;
+    padding: 30px 30px 30px 30px;
+    overflow: auto;
+}
+#generator_form{
+    
+}
+.bb-fname{
+    width: 98%;
+    margin-top: 20px;
+    padding-top: 3px;
+    font-family: lunchbox;
+    font-size: 1.5em;
+    padding-bottom: 3px;
+}
+.bb-lname{
+    width: 98%;
+    margin-top: 20px;
+    padding-top: 3px;
+    font-family: lunchbox;
+    font-size: 1.5em;
+    padding-bottom: 3px;
+}
+.bb-go{
+    
+}
+.bb-submit{
+    background-color: #c10000;
+    border: 0px;
+    color: white;
+    float: right;
+    margin-top: 20px;
+    font-size: 1em;
+    padding: 7px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.bb-submit:hover{
+    background-color:#008a8f;
+}
+.bb-share{
+    overflow: auto;
+    padding: 15px;
+}
+.bb-social-each{
+    display: block;
+    float: left;
+    text-align: center;
+}
+.bb-social-facebook{
+    width: 20%;
+}
+.bb-facebook{
+    display: block;
+    background-color: #c10000;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url('social.png');
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    background-position: 16px 6px;
+    cursor: pointer;
+}
+.bb-facebook:hover{
+    background-color:#008a8f;
+}
+.bb-social-twitter{
+    width: 20%;
+}
+.bb-twitter{
+    display: block;
+    background-color: #c10000;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url('social.png');
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    background-position: -62px 8px;
+    cursor: pointer;
+}
+.bb-twitter:hover{
+    background-color:#008a8f;
+}
+.bb-social-sharecopy{
+    width: 60%;
+    text-align: left;
+}
+.bb-sharecopy{
+    margin-left: 15px;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 1.4em;
+}
+.bb-wrapper-right{
+    background-image: url('bg.png');
+    background-size: 100%;
+    min-height: 700px;
+    background-repeat: no-repeat;
+}
+.bb-wrapper-right-firstname{
+    text-align: center;
+    color: #fff;
+    font-family: lunchbox;
+    font-size: 6em;
+    margin-top:50px;
+    text-transform: uppercase;
+}
+.bb-wrapper-right-image{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.bb-wrapper-right-image-prime{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.bb-wrapper-right-lastname{
+    text-align: center;
+    color: #fff;
+    font-family: lunchbox;
+    font-size: 6em;
+    text-transform: uppercase;
+}
+.mobiledisplay{
+    display: none;
+}
+.regulardisplay{
+    display: block;
+}
+
+/* TABLETS */
+
+/* ----------- iPad mini ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    body{
+        /*  iPad Mini  */
+        font-family: junction;
+        font-weight: normal;
+        font-size: 1em;
+        background-color: #000;
+    }
+    .bb-container {
+        /*  iPad Mini  */
+        width: 95%;
+        margin: 0 auto;
+        padding-top: 40px;
+        min-width: 95%;
+        max-width: 95%;
+    }
+    .col-onethird {
+        /*  iPad Mini  */
+        float: left;
+        width: 33%;
+        min-width: 33%;
+    }
+    .col-twothirds {
+        /*  iPad Mini  */
+        float: left;
+        width: 67%;
+        min-width: 67%;
+    }
+    .bb-form{
+        padding-top: 30px;
+        position: relative;
+        padding: 30px 30px 30px 30px;
+        overflow: auto;
+    }
+    #generator_form{
+        
+    }
+    .bb-fname{
+        width: 98%;
+        margin-top: 20px;
+        padding-top: 3px;
+        font-family: lunchbox;
+        font-size: 1.5em;
+        padding-bottom: 3px;
+    }
+    .bb-lname{
+        width: 98%;
+        margin-top: 20px;
+        padding-top: 3px;
+        font-family: lunchbox;
+        font-size: 1.5em;
+        padding-bottom: 3px;
+    }
+    .bb-go{
+        
+    }
+    .bb-submit{
+        background-color: #c10000;
+        border: 0px;
+        color: white;
+        float: right;
+        margin-top: 20px;
+        font-size: 1em;
+        padding: 7px 20px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .bb-submit:hover{
+        background-color:#008a8f;
+    }
+    .bb-share{
+        
+    }
+    .bb-social-each{
+        display: block;
+        float: left;
+        text-align: center;
+    }
+    .bb-social-facebook{
+        width: 20%;
+    }
+    .bb-facebook{
+        display: block;
+        background-color: #c10000;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin: 0 auto;
+        background-image: url('social.png');
+        text-indent: -9999px;
+        background-repeat: no-repeat;
+        background-position: 16px 6px;
+        cursor: pointer;
+    }
+    .bb-facebook:hover{
+        background-color:#008a8f;
+    }
+    .bb-social-twitter{
+        width: 20%;
+    }
+    .bb-twitter{
+        display: block;
+        background-color: #c10000;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin: 0 auto;
+        background-image: url('social.png');
+        text-indent: -9999px;
+        background-repeat: no-repeat;
+        background-position: -62px 8px;
+        cursor: pointer;
+    }
+    .bb-twitter:hover{
+        background-color:#008a8f;
+    }
+    .bb-social-sharecopy{
+        width: 60%;
+        text-align: left;
+    }
+    .bb-sharecopy{
+        margin-left: 15px;
+        font-size: 1em;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        line-height: 1.4em;
+    }
+  
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    body{
+        /*  iPad 1 and 2  */
+        font-family: junction;
+        font-weight: normal;
+        font-size: 1em;
+        background-color: #000;
+    }
+    .bb-container {
+        /*  iPad 1 and 2  */
+        width: 95%;
+        margin: 0 auto;
+        padding-top: 40px;
+        min-width: 95%;
+        max-width: 95%;
+    }
+    .col-onethird {
+        /*  iPad 1 and 2  */
+        float: left;
+        width: 33%;
+        min-width: 33%;
+    }
+    .col-twothirds {
+        /*  iPad 1 and 2  */
+        float: left;
+        width: 67%;
+        min-width: 67%;
+    }
+    .bb-form{
+        padding-top: 30px;
+        position: relative;
+        padding: 30px 30px 30px 30px;
+        overflow: auto;
+    }
+    #generator_form{
+        
+    }
+    .bb-fname{
+        width: 98%;
+        margin-top: 20px;
+        padding-top: 3px;
+        font-family: lunchbox;
+        font-size: 1.5em;
+        padding-bottom: 3px;
+    }
+    .bb-lname{
+        width: 98%;
+        margin-top: 20px;
+        padding-top: 3px;
+        font-family: lunchbox;
+        font-size: 1.5em;
+        padding-bottom: 3px;
+    }
+    .bb-go{
+        
+    }
+    .bb-submit{
+        background-color: #c10000;
+        border: 0px;
+        color: white;
+        float: right;
+        margin-top: 20px;
+        font-size: 1em;
+        padding: 7px 20px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .bb-submit:hover{
+        background-color:#008a8f;
+    }
+    .bb-share{
+        
+    }
+    .bb-social-each{
+        display: block;
+        float: left;
+        text-align: center;
+    }
+    .bb-social-facebook{
+        width: 20%;
+    }
+    .bb-facebook{
+        display: block;
+        background-color: #c10000;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin: 0 auto;
+        background-image: url('social.png');
+        text-indent: -9999px;
+        background-repeat: no-repeat;
+        background-position: 16px 6px;
+        cursor: pointer;
+    }
+    .bb-facebook:hover{
+        background-color:#008a8f;
+    }
+    .bb-social-twitter{
+        width: 20%;
+    }
+    .bb-twitter{
+        display: block;
+        background-color: #c10000;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin: 0 auto;
+        background-image: url('social.png');
+        text-indent: -9999px;
+        background-repeat: no-repeat;
+        background-position: -62px 8px;
+        cursor: pointer;
+    }
+    .bb-twitter:hover{
+        background-color:#008a8f;
+    }
+    .bb-social-sharecopy{
+        width: 60%;
+        text-align: left;
+    }
+    .bb-sharecopy{
+        margin-left: 15px;
+        font-size: 1em;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        line-height: 1.4em;
+    }
+  
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    body{
+        /*  iPad 3 and 4  */
+        font-family: junction;
+        font-weight: normal;
+        font-size: 1em;
+        background-color: #000;
+    }
+    .bb-container {
+        /*  iPad 3 and 4  */
+        width: 95%;
+        margin: 0 auto;
+        padding-top: 40px;
+        min-width: 95%;
+        max-width: 95%;
+    }
+    .col-onethird {
+        /*  iPad 3 and 4  */
+        float: left;
+        width: 33%;
+        min-width: 33%;
+    }
+    .col-twothirds {
+        /*  iPad 3 and 4  */
+        float: left;
+        width: 67%;
+        min-width: 67%;
+    }
+    .bb-form{
+        padding-top: 30px;
+        position: relative;
+        padding: 30px 30px 30px 30px;
+        overflow: auto;
+    }
+    #generator_form{
+        
+    }
+    .bb-fname{
+        width: 98%;
+        margin-top: 20px;
+        padding-top: 3px;
+        font-family: lunchbox;
+        font-size: 1.5em;
+        padding-bottom: 3px;
+    }
+    .bb-lname{
+        width: 98%;
+        margin-top: 20px;
+        padding-top: 3px;
+        font-family: lunchbox;
+        font-size: 1.5em;
+        padding-bottom: 3px;
+    }
+    .bb-go{
+        
+    }
+    .bb-submit{
+        background-color: #c10000;
+        border: 0px;
+        color: white;
+        float: right;
+        margin-top: 20px;
+        font-size: 1em;
+        padding: 7px 20px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .bb-submit:hover{
+        background-color:#008a8f;
+    }
+    .bb-share{
+        
+    }
+    .bb-social-each{
+        display: block;
+        float: left;
+        text-align: center;
+    }
+    .bb-social-facebook{
+        width: 20%;
+    }
+    .bb-facebook{
+        display: block;
+        background-color: #c10000;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin: 0 auto;
+        background-image: url('social.png');
+        text-indent: -9999px;
+        background-repeat: no-repeat;
+        background-position: 16px 6px;
+        cursor: pointer;
+    }
+    .bb-facebook:hover{
+        background-color:#008a8f;
+    }
+    .bb-social-twitter{
+        width: 20%;
+    }
+    .bb-twitter{
+        display: block;
+        background-color: #c10000;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin: 0 auto;
+        background-image: url('social.png');
+        text-indent: -9999px;
+        background-repeat: no-repeat;
+        background-position: -62px 8px;
+        cursor: pointer;
+    }
+    .bb-twitter:hover{
+        background-color:#008a8f;
+    }
+    .bb-social-sharecopy{
+        width: 60%;
+        text-align: left;
+    }
+    .bb-sharecopy{
+        margin-left: 15px;
+        font-size: 1em;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        line-height: 1.4em;
+    }
+  
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* PHONES */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    body{
+        /*  iPhone 5 and 5S  */
+        font-family: junction;
+        font-weight: normal;
+        font-size: 1em;
+        background-color: #000;
+    }
+    .bb-container {
+        /*  iPhone 5 and 5S  */
+        width: 95%;
+        margin: 0 auto;
+        padding-top: 40px;
+        min-width: 95%;
+        max-width: 95%;
+    }
+    .col-onethird {
+        /*  iPhone 5 and 5S  */
+        float: left;
+        width: 100%;
+    }
+    .col-twothirds {
+        /*  iPhone 5 and 5S  */
+        float: left;
+        width: 100%;
+    }
+    .bb-wrapper-right-image {
+        width: 75%;
+        margin: 0 auto;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .bb-wrapper-right-firstname {
+        text-align: center;
+        color: #fff;
+        font-family: lunchbox;
+        font-size: 10em;
+        margin-top: 50px;
+    }
+    .bb-wrapper-right-lastname {
+        text-align: center;
+        color: #fff;
+        font-family: lunchbox;
+        font-size: 10em;
+    }
+    .mobiledisplay{
+        display: block;
+        overflow: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .regulardisplay{
+        display: none;
+    }
+    .bb-form{
+        padding-top: 30px;
+        position: relative;
+        padding: 30px 30px 30px 30px;
+        overflow: auto;
+    }
+    #generator_form{
+        
+    }
+    .bb-fname{
+        width: 97%;
+        margin-top: 40px;
+        padding-top: 20px;
+        font-family: lunchbox;
+        font-size: 2.5em;
+        padding-bottom: 20px;
+        padding-left: 2%;
+    }
+    .bb-lname{
+        width: 97%;
+        margin-top: 40px;
+        padding-top: 20px;
+        font-family: lunchbox;
+        font-size: 2.5em;
+        padding-bottom: 20px;
+        padding-left: 2%;
+    }
+    .bb-go{
+        
+    }
+    .bb-submit{
+        background-color: #c10000;
+        border: 0px;
+        color: white;
+        float: right;
+        margin-top: 40px;
+        font-size: 2.5em;
+        padding: 20px 40px;
+        border-radius: 40px;
+        cursor: pointer;
+    }
+    .bb-submit:hover{
+        background-color:#008a8f;
+    }
+    .bb-share{
+        
+    }
+    .bb-social-each{
+        display: block;
+        float: left;
+        text-align: center;
+    }
+    .bb-social-facebook{
+        width: 20%;
+    }
+    .bb-facebook{
+        display: block;
+        background-color: #c10000;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        margin: 0 auto;
+        background-image: url('social.png');
+        text-indent: -9999px;
+        background-repeat: no-repeat;
+        background-position: 48px 20px;
+        cursor: pointer;
+        margin-bottom: 100px;
+        background-size: 200%;
+    }
+    .bb-facebook:hover{
+        background-color:#008a8f;
+    }
+    .bb-social-twitter{
+        width: 20%;
+    }
+    .bb-twitter{
+        display: block;
+        background-color: #c10000;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        margin: 0 auto;
+        background-image: url('social.png');
+        text-indent: -9999px;
+        background-repeat: no-repeat;
+        background-position: -160px 25px;
+        cursor: pointer;
+        background-size: 200%;
+    }
+    .bb-twitter:hover{
+        background-color:#008a8f;
+    }
+    .bb-social-sharecopy{
+        width: 60%;
+        text-align: left;
+    }
+    .bb-sharecopy{
+        margin-left: 15px;
+        font-size: 3em;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        line-height: 1.4em;
+    }
+  
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    body{
+        /*  iPhone 5 and 5S  */
+        font-family: junction;
+        font-weight: normal;
+        font-size: 1em;
+        background-color: #000;
+    }
+    .bb-container {
+        /*  iPhone 5 and 5S  */
+        width: 95%;
+        margin: 0 auto;
+        padding-top: 40px;
+        min-width: 95%;
+        max-width: 95%;
+    }
+    .col-onethird {
+        /*  iPhone 5 and 5S  */
+        float: left;
+        width: 100%;
+    }
+    .col-twothirds {
+        /*  iPhone 5 and 5S  */
+        float: left;
+        width: 100%;
+    }
+    .bb-wrapper-right-image {
+        width: 75%;
+        margin: 0 auto;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .bb-wrapper-right-firstname {
+        text-align: center;
+        color: #fff;
+        font-family: lunchbox;
+        font-size: 10em;
+        margin-top: 50px;
+    }
+    .bb-wrapper-right-lastname {
+        text-align: center;
+        color: #fff;
+        font-family: lunchbox;
+        font-size: 10em;
+    }
+    .mobiledisplay{
+        display: block;
+        overflow: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .regulardisplay{
+        display: none;
+    }
+    .bb-form{
+        padding-top: 30px;
+        position: relative;
+        padding: 30px 30px 30px 30px;
+        overflow: auto;
+    }
+    #generator_form{
+        
+    }
+    .bb-fname{
+        width: 97%;
+        margin-top: 40px;
+        padding-top: 20px;
+        font-family: lunchbox;
+        font-size: 2.5em;
+        padding-bottom: 20px;
+        padding-left: 2%;
+    }
+    .bb-lname{
+        width: 97%;
+        margin-top: 40px;
+        padding-top: 20px;
+        font-family: lunchbox;
+        font-size: 2.5em;
+        padding-bottom: 20px;
+        padding-left: 2%;
+    }
+    .bb-go{
+        
+    }
+    .bb-submit{
+        background-color: #c10000;
+        border: 0px;
+        color: white;
+        float: right;
+        margin-top: 40px;
+        font-size: 2.5em;
+        padding: 20px 40px;
+        border-radius: 40px;
+        cursor: pointer;
+    }
+    .bb-submit:hover{
+        background-color:#008a8f;
+    }
+    .bb-share{
+        
+    }
+    .bb-social-each{
+        display: block;
+        float: left;
+        text-align: center;
+    }
+    .bb-social-facebook{
+        width: 20%;
+    }
+    .bb-facebook{
+        display: block;
+        background-color: #c10000;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        margin: 0 auto;
+        background-image: url('social.png');
+        text-indent: -9999px;
+        background-repeat: no-repeat;
+        background-position: 48px 20px;
+        cursor: pointer;
+        margin-bottom: 100px;
+        background-size: 200%;
+    }
+    .bb-facebook:hover{
+        background-color:#008a8f;
+    }
+    .bb-social-twitter{
+        width: 20%;
+    }
+    .bb-twitter{
+        display: block;
+        background-color: #c10000;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        margin: 0 auto;
+        background-image: url('social.png');
+        text-indent: -9999px;
+        background-repeat: no-repeat;
+        background-position: -160px 25px;
+        cursor: pointer;
+        background-size: 200%;
+    }
+    .bb-twitter:hover{
+        background-color:#008a8f;
+    }
+    .bb-social-sharecopy{
+        width: 60%;
+        text-align: left;
+    }
+    .bb-sharecopy{
+        margin-left: 15px;
+        font-size: 3em;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        line-height: 1.4em;
+    }
+  
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+    body{
+        /*  iPhone 5 and 5S  */
+        font-family: junction;
+        font-weight: normal;
+        font-size: 1em;
+        background-color: #000;
+    }
+    .bb-container {
+        /*  iPhone 5 and 5S  */
+        width: 95%;
+        margin: 0 auto;
+        padding-top: 40px;
+        min-width: 95%;
+        max-width: 95%;
+    }
+    .col-onethird {
+        /*  iPhone 5 and 5S  */
+        float: left;
+        width: 100%;
+    }
+    .col-twothirds {
+        /*  iPhone 5 and 5S  */
+        float: left;
+        width: 100%;
+    }
+    .bb-wrapper-right-image {
+        width: 75%;
+        margin: 0 auto;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .bb-wrapper-right-firstname {
+        text-align: center;
+        color: #fff;
+        font-family: lunchbox;
+        font-size: 10em;
+        margin-top: 50px;
+    }
+    .bb-wrapper-right-lastname {
+        text-align: center;
+        color: #fff;
+        font-family: lunchbox;
+        font-size: 10em;
+    }
+    .mobiledisplay{
+        display: block;
+        overflow: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .regulardisplay{
+        display: none;
+    }
+    .bb-form{
+        padding-top: 30px;
+        position: relative;
+        padding: 30px 30px 30px 30px;
+        overflow: auto;
+    }
+    #generator_form{
+        
+    }
+    .bb-fname{
+        width: 97%;
+        margin-top: 40px;
+        padding-top: 20px;
+        font-family: lunchbox;
+        font-size: 2.5em;
+        padding-bottom: 20px;
+        padding-left: 2%;
+    }
+    .bb-lname{
+        width: 97%;
+        margin-top: 40px;
+        padding-top: 20px;
+        font-family: lunchbox;
+        font-size: 2.5em;
+        padding-bottom: 20px;
+        padding-left: 2%;
+    }
+    .bb-go{
+        
+    }
+    .bb-submit{
+        background-color: #c10000;
+        border: 0px;
+        color: white;
+        float: right;
+        margin-top: 40px;
+        font-size: 2.5em;
+        padding: 20px 40px;
+        border-radius: 40px;
+        cursor: pointer;
+    }
+    .bb-submit:hover{
+        background-color:#008a8f;
+    }
+    .bb-share{
+        
+    }
+    .bb-social-each{
+        display: block;
+        float: left;
+        text-align: center;
+    }
+    .bb-social-facebook{
+        width: 20%;
+    }
+    .bb-facebook{
+        display: block;
+        background-color: #c10000;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        margin: 0 auto;
+        background-image: url('social.png');
+        text-indent: -9999px;
+        background-repeat: no-repeat;
+        background-position: 48px 20px;
+        cursor: pointer;
+        margin-bottom: 100px;
+        background-size: 200%;
+    }
+    .bb-facebook:hover{
+        background-color:#008a8f;
+    }
+    .bb-social-twitter{
+        width: 20%;
+    }
+    .bb-twitter{
+        display: block;
+        background-color: #c10000;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        margin: 0 auto;
+        background-image: url('social.png');
+        text-indent: -9999px;
+        background-repeat: no-repeat;
+        background-position: -160px 25px;
+        cursor: pointer;
+        background-size: 200%;
+    }
+    .bb-twitter:hover{
+        background-color:#008a8f;
+    }
+    .bb-social-sharecopy{
+        width: 60%;
+        text-align: left;
+    }
+    .bb-sharecopy{
+        margin-left: 15px;
+        font-size: 3em;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        line-height: 1.4em;
+    }
+  
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    body{
+        /*  iPhone 5 and 5S  */
+        font-family: junction;
+        font-weight: normal;
+        font-size: 1em;
+        background-color: #000;
+    }
+    .bb-container {
+        /*  iPhone 5 and 5S  */
+        width: 95%;
+        margin: 0 auto;
+        padding-top: 40px;
+        min-width: 95%;
+        max-width: 95%;
+    }
+    .col-onethird {
+        /*  iPhone 5 and 5S  */
+        float: left;
+        width: 100%;
+    }
+    .col-twothirds {
+        /*  iPhone 5 and 5S  */
+        float: left;
+        width: 100%;
+    }
+    .bb-wrapper-right-image {
+        width: 75%;
+        margin: 0 auto;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .bb-wrapper-right-firstname {
+        text-align: center;
+        color: #fff;
+        font-family: lunchbox;
+        font-size: 10em;
+        margin-top: 50px;
+    }
+    .bb-wrapper-right-lastname {
+        text-align: center;
+        color: #fff;
+        font-family: lunchbox;
+        font-size: 10em;
+    }
+    .mobiledisplay{
+        display: block;
+        overflow: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .regulardisplay{
+        display: none;
+    }
+    .bb-form{
+        padding-top: 30px;
+        position: relative;
+        padding: 30px 30px 30px 30px;
+        overflow: auto;
+    }
+    #generator_form{
+        
+    }
+    .bb-fname{
+        width: 97%;
+        margin-top: 40px;
+        padding-top: 20px;
+        font-family: lunchbox;
+        font-size: 2.5em;
+        padding-bottom: 20px;
+        padding-left: 2%;
+    }
+    .bb-lname{
+        width: 97%;
+        margin-top: 40px;
+        padding-top: 20px;
+        font-family: lunchbox;
+        font-size: 2.5em;
+        padding-bottom: 20px;
+        padding-left: 2%;
+    }
+    .bb-go{
+        
+    }
+    .bb-submit{
+        background-color: #c10000;
+        border: 0px;
+        color: white;
+        float: right;
+        margin-top: 40px;
+        font-size: 2.5em;
+        padding: 20px 40px;
+        border-radius: 40px;
+        cursor: pointer;
+    }
+    .bb-submit:hover{
+        background-color:#008a8f;
+    }
+    .bb-share{
+        
+    }
+    .bb-social-each{
+        display: block;
+        float: left;
+        text-align: center;
+    }
+    .bb-social-facebook{
+        width: 20%;
+    }
+    .bb-facebook{
+        display: block;
+        background-color: #c10000;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        margin: 0 auto;
+        background-image: url('social.png');
+        text-indent: -9999px;
+        background-repeat: no-repeat;
+        background-position: 48px 20px;
+        cursor: pointer;
+        margin-bottom: 100px;
+        background-size: 200%;
+    }
+    .bb-facebook:hover{
+        background-color:#008a8f;
+    }
+    .bb-social-twitter{
+        width: 20%;
+    }
+    .bb-twitter{
+        display: block;
+        background-color: #c10000;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        margin: 0 auto;
+        background-image: url('social.png');
+        text-indent: -9999px;
+        background-repeat: no-repeat;
+        background-position: -160px 25px;
+        cursor: pointer;
+        background-size: 200%;
+    }
+    .bb-twitter:hover{
+        background-color:#008a8f;
+    }
+    .bb-social-sharecopy{
+        width: 60%;
+        text-align: left;
+    }
+    .bb-sharecopy{
+        margin-left: 15px;
+        font-size: 3em;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        line-height: 1.4em;
+    }
+  
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
