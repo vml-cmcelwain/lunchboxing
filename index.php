@@ -1,52 +1,17 @@
 <?php
-
-if(isset($_GET['generate'])){
-    $encodedString = $_GET['generate'];
-    $decodeString = base64_decode($encodedString);
-    $decodedArray = explode('&', $decodeString);
-    $bbfname        = str_replace('fname=', $decodeArray['0']);
-    $bblname        = str_replace('lname=', $decodeArray['1']);
-    $bbimage        = str_replace('img=', $decodeArray['2']);
-    $bbgo           = str_replace('go=',$decodeArray['3']);
-    $bbimg          = str_replace('img=', $decodeArray['2']);
-    $sharelink      = $_SERVER['HTTP_REFERER'];
-    $sharequery     = $decodeString;
-    $shareme        = $sharelink . '?'. $sharequery;
-    $bbimagename    = $bbfname . '_' . $bblname . '_' . $bbimg;
-}else{
-    if(isset($_GET['go'])){
-        $bbfname        = $_GET['fname'];
-        $bblname        = $_GET['lname'];
-        $bbimage        = $_GET['img'];
-        $bbgo           = $_GET['go'];
-        $bbimg          = $_GET['img'];
-        $sharelink      = $_SERVER['HTTP_REFERER'];
-        $sharequery     = $_SERVER['QUERY_STRING'];
-        $shareme        = $sharelink . '?'. $sharequery;
-        $bbimagename    = $bbfname . '_' . $bblname . '_' . $bbimg; 
-    }
-    else{
-        //do nothing..
-    }
-}   
+    include '_scripts/processor.php';
 ?>
-
-
 <!DOCTYPE html>
-
 <html>
 <head>
-
     <title>BB Name Generator</title>
-    
     <link rel="stylesheet" type="text/css" href="/_styles/styles.css"/>
     <link rel="stylesheet" type="text/css" href="/_styles/animate.css"/>
-    
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
     <meta property="og:title" content="Lunchboxing Name Generator" /> 
     <meta property="og:image" content="<?php echo $_SERVER['HTTP_REFERER']; ?>_images/generated/<?php echo $bbimagename; ?>.png" /> 
     <meta property="og:description" content="Babybel Name Generator" /> 
     <meta property="og:url" content="<?php echo $sharelink . '?generate=' . base64_encode($_SERVER['QUERY_STRING']); ?>">
-
 </head>
 <!-- alt body class equals generated -->
 <body class="generate">
@@ -105,12 +70,12 @@ if(isset($_GET['generate'])){
                     </div>
                     <div class="bb-wrapper-left-form">
                         <form class="bb-form" id="generator_form" action="" enctype="multipart/form-data" method="GET">
-                            <input type="text" value="" placeholder="FIRST NAME" class="bb-fname" name="fname" id="first_name"/>
-                            <input type="text" value="" placeholder="LAST NAME" class="bb-lname" name="lname" id="last_name" />
+                            <input type="text" value="<?php if(isset($bbfname)){ echo $bbfname; } ?>" placeholder="FIRST NAME" class="bb-fname" name="fname" id="first_name"/>
+                            <input type="text" value="<?php if(isset($bblname)){ echo $bblname; } ?>" placeholder="LAST NAME" class="bb-lname" name="lname" id="last_name" />
                             <input type="hidden" value="<?php echo rand(1,15); ?>" class="bb-img" name="img"/>
                             <input type="hidden" value="1" class="bb-go" name="go"/>
                             <!--<span class="bb-submit" id="name_me_submit_alt">name me</span>-->
-                            <input type="submit" value="name me" class="bb-submit" id="name_me_submit"/>
+                            <input type="submit" value="<?php if(isset($bbsubmit)){ echo $bbsubmit; } ?>" class="bb-submit" id="name_me_submit"/>
                         </form>
                         
                         
